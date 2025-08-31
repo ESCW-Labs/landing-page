@@ -2,8 +2,8 @@
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  basePath: isProd ? "/Crypgo" : "",
-  assetPrefix: isProd ? "/Crypgo/" : "",
+  basePath: isProd ? "/" : "",
+  assetPrefix: isProd ? "/" : "",
   output: "export",
   images: {
     unoptimized: true,
@@ -11,5 +11,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
- 
