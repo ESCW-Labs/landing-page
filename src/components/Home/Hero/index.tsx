@@ -77,7 +77,7 @@ const Hero = () => {
             </h1>
             <div className="flex items-center md:justify-start justify-center gap-2 md:gap-8 flex-nowrap">
               <Link
-                href="https://wa.me/6281234567890?text=Halo..."
+                href="https://wa.me/62811252497?text=Halo%20ESCW%20Labs,%20saya%20siap%20untuk%20memulai%20proyek%20pengembangan%20software.%20Saya%20ingin%20mendiskusikan%20kebutuhan%20dan%20timeline%20proyek%20saya."
                 className="bg-primary border border-primary rounded-lg text-sm md:text-lg font-medium hover:bg-transparent hover:text-primary text-darkmode py-2 px-3 md:px-6 whitespace-nowrap"
                 target="_blank"
               >

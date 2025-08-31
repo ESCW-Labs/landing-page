@@ -96,7 +96,7 @@ const Footer: FC = () => {
               {/* Contact Links */}
               <div className="space-y-4 mb-6">
                 <Link 
-                  href="https://wa.me/6281234567890?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
+                  href="https://wa.me/62811252497?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
                   className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors duration-300 group"
                   target="_blank"
                 >

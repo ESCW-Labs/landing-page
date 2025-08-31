@@ -17,7 +17,7 @@ const Platform = () => {
           <div className="lg:col-span-4 col-span-12">
             <div className="flex lg:justify-end lg:mt-0 mt-7 justify-center">
               <Link
-                href="https://wa.me/6281234567890?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
+                href="https://wa.me/62811252497?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
                 className="text-darkmode bg-primary border border-primary py-3 px-5 rounded-lg sm:text-21 text-18 font-medium hover:bg-transparent hover:text-primary"
                 target="_blank"
               >
