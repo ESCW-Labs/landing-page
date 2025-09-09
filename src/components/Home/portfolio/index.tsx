@@ -6,33 +6,17 @@ import { getImagePrefix } from "@/utils/utils";
 
 const Portfolio = () => {
   return (
-    <section className="md:pt-48 sm:pt-28 pt-12" id="services">
+    <section className="pt-28" id="services">
       <div className="container mx-auto lg:max-w-screen-xl px-4 sm:px-6">
-        <div className="grid lg:grid-cols-2 items-center gap-20">
-          <motion.div
-            whileInView={{ y: 0, opacity: 1 }}
-            initial={{ y: "-100%", opacity: 0 }}
-            transition={{ duration: 0.6 }}
-            className="lg:-ml-32"
-          >
-            <Image
-              src= {`${getImagePrefix()}images/portfolio/img-portfolio.png`}
-              alt="Crypto Portfolio"
-              width={780}
-              height={700}
-            />
-          </motion.div>
+        <div className="grid lg:grid-cols-2 items-center lg:gap-20 gap-5">
 
           <motion.div
             whileInView={{ y: 0, opacity: 1 }}
-            initial={{ y: "100%", opacity: 0 }}
+            initial={{ y: "50%", opacity: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <p className="sm:text-28 text-18 text-muted mb-4">
+            <h2 className="sm:text-40 text-30 text-white lg:w-full md:w-70% font-medium">
               Our Digital <span className="text-primary">Services</span>
-            </p>
-            <h2 className="text-white sm:text-40 text-30 mb-4 font-medium">
-              Tailored digital solutions to <span className="text-primary">accelerate growth & drive innovation</span>
             </h2>
             <p className="text-muted text-opacity-60 text-18">
               ESCW Labs provides innovative services that help businesses
@@ -65,6 +49,20 @@ const Portfolio = () => {
                 ))}
               </tbody>
             </table>
+          </motion.div>
+          
+          <motion.div
+            whileInView={{ y: 0, opacity: 1 }}
+            initial={{ y: "-100%", opacity: 0 }}
+            transition={{ duration: 0.6 }}
+            className="lg:-ml-32"
+          >
+            <Image
+              src= {`${getImagePrefix()}images/portfolio/img-portfolio.png`}
+              alt="Crypto Portfolio"
+              width={780}
+              height={700}
+            />
           </motion.div>
         </div>
       </div>

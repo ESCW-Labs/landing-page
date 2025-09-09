@@ -9,18 +9,8 @@ import Perks from "@/components/Home/perks";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ESCW Labs — Memberdayakan Ide Melalui Inovasi Digital",
-  description:
-    "ESCW Labs adalah mitra teknologi untuk membangun produk digital berdampak: software development, web & mobile apps, product design, cloud integration, IT consulting, serta support & maintenance.",
-  keywords: [
-    "software development",
-    "it consulting",
-    "web development",
-    "mobile app development",
-    "cloud integration",
-    "product design",
-    "digital innovation",
-  ],
+  title: "ESCW Labs - Custom Software & App Development",
+  description: "ESCW Labs is a technology partner that builds custom digital solutions for startups and businesses. Our services is web & mobile development, product design, and IT consulting.",
   metadataBase: new URL("https://escwlabs.com"),
   alternates: {
     canonical: "https://escwlabs.com",
@@ -30,16 +20,15 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "ESCW Labs — Memberdayakan Ide Melalui Inovasi Digital",
+    title: "ESCW Labs - Custom Software & App Development",
     description:
-      "Bangun solusi digital berdampak bersama ESCW Labs: software, aplikasi web & mobile, desain produk, cloud, IT consulting, dan support.",
+      "Build impactful digital solutions with ESCW Labs: custom software, web & mobile apps, product design, cloud, and IT consulting.",
     url: "https://escwlabs.com/",
     siteName: "ESCW Labs",
-    locale: "id_ID",
+    locale: "en_US",
     type: "website",
   },
 };
-
 
 export default function Home() {
   return (
@@ -53,26 +42,26 @@ export default function Home() {
             "@type": "Organization",
             name: "ESCW Labs",
             url: "https://escwlabs.com/",
-            logo: "https://escwlabs.com/images/logo.png",
+            logo: "https://escwlabs.com/images/logo/logo.png",
             description:
-              "ESCW Labs adalah mitra teknologi yang membantu individu, startup, dan bisnis membangun produk digital berdampak—dari ide hingga eksekusi.",
+              "ESCW Labs is a technology partner that helps individuals, startups, and businesses build impactful digital products—from idea to execution.",
             sameAs: [
-              "https://www.linkedin.com/company/escw-labs",
+              "https://www.linkedin.com/company/escwlabs",
               "https://www.instagram.com/escwlabs",
             ],
             contactPoint: {
               "@type": "ContactPoint",
               contactType: "customer support",
-              email: "hello@escwlabs.com",
+              email: "info@escwlabs.com",
               availableLanguage: ["id", "en"],
             },
             hasOfferCatalog: {
               "@type": "OfferCatalog",
-              name: "Layanan ESCW Labs",
+              name: "ESCW Labs Services",
               itemListElement: [
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Software Development (Custom & Enterprise)" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web & Mobile Applications" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Product Design & Prototyping" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Custom Software Development" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Web & Mobile Application Development" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Product Design" } },
                 { "@type": "Offer", itemOffered: { "@type": "Service", name: "Cloud & System Integration" } },
                 { "@type": "Offer", itemOffered: { "@type": "Service", name: "IT Consulting" } },
                 { "@type": "Offer", itemOffered: { "@type": "Service", name: "Support & Maintenance" } },

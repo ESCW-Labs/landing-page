@@ -24,23 +24,31 @@ const Work = () => {
     {
       icon: "/images/icons/icon-partner.svg",
       text: "Partnership Over Vendor Relationship",
+      width: 45,
+      height: 45,
     },
     {
       icon: "/images/icons/icon-quality.svg",
       text: "Quality Over Quantity",
+      width: 30,
+      height: 30,
     },
     {
       icon: "/images/icons/icon-agility.svg",
       text: "Agility & Responsiveness",
+      width: 30,
+      height: 30,
     },
     {
       icon: "/images/icons/icon-transparancy.svg",
+      width: 30,
+      height: 30,
       text: "Transparency",
     },
   ];
 
   return (
-    <section className="md:pt-28" id="about">
+    <section className="pt-28" id="about">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <div ref={ref} className="grid grid-cols-12 items-center">
           <motion.div
@@ -56,14 +64,18 @@ const Work = () => {
             <div className="grid md:grid-cols-2 gap-7 mt-11">
               {services.map((service, index) => (
                 <div key={index} className="flex items-center gap-5">
-                  <div className="px-5 py-5 bg-light_grey bg-opacity-30 rounded-full">
+
+                  <div className="flex items-center justify-center px-3 py-3 bg-primary bg-opacity-20 rounded-full">
                     <Image
                       src= {`${getImagePrefix()}${service.icon}`}
                       alt={`${service.text} icon`}
-                      width={40}
-                      height={40}
+                      width={service.width}
+                      height={service.height}
                     />
                   </div>
+
+                  {/* <div className="px-5 py-5 bg-light_grey bg-opacity-30 rounded-full">
+                  </div> */}
                   <p className="text-24 text-muted">{service.text}</p>
                 </div>
               ))}

@@ -8,7 +8,7 @@ import Logo from "../Header/Logo";
 
 const Footer: FC = () => {
   return (
-    <footer className="bg-darkmode" id="contact">
+    <footer className="bg-darkmode pt-24" id="contact">
       {/* Main Footer Content */}
       <div className="pt-16 pb-8">
         <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
@@ -96,7 +96,7 @@ const Footer: FC = () => {
               {/* Contact Links */}
               <div className="space-y-4 mb-6">
                 <Link 
-                  href="https://wa.me/62811252497?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
+                  href="https://wa.me/6281770777164?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
                   className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors duration-300 group"
                   target="_blank"
                 >
@@ -107,7 +107,22 @@ const Footer: FC = () => {
                     className="text-primary flex-shrink-0"
                   />
                   <span className="group-hover:translate-x-1 transition-transform duration-300">
-                    +62 811 2524 97
+                    +62 817 7077 7164
+                  </span>
+                </Link>
+                <Link 
+                  href="https://wa.me/6281770777165?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
+                  className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors duration-300 group"
+                  target="_blank"
+                >
+                  <Icon
+                    icon="tabler:phone"
+                    width="20"
+                    height="20"
+                    className="text-primary flex-shrink-0"
+                  />
+                  <span className="group-hover:translate-x-1 transition-transform duration-300">
+                    +62 817 7077 7165
                   </span>
                 </Link>
                 

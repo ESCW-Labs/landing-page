@@ -15,7 +15,7 @@ export const pricedeta: {
 }[] = [
   {
     title: "Web Application",
-    short: "Build robust and scalable web applications tailored to your business.",
+    short: "Build robust & scalable web apps tailored to your business.",
     icon: "/images/icons/web-app.png",
     background: "bg-white",
     width: 20,
@@ -134,30 +134,40 @@ export const timelineData: {
   title: string;
   text: string;
   position: string;
+  width: number;
+  height: number;
 }[] = [
   {
     icon: "/images/timeline/icon-planning.svg",
     title: "Planning",
     text: "Map the project's scope and architecture",
     position: "md:top-0 md:left-0",
+    width: 40,
+    height: 40,
   },
   {
     icon: "/images/timeline/icon-refinement.svg",
     title: "Refinement",
     text: "Refine and improve your solution",
     position: "md:top-0 md:right-0",
+    width: 30,
+    height: 30,
   },
   {
     icon: "/images/timeline/icon-prototype.svg",
     title: "Prototype",
     text: "Build a working prototype to test your product",
     position: "md:bottom-0 md:left-0",
+    width: 40,
+    height: 40,
   },
   {
     icon: "/images/timeline/icon-support.svg",
     title: "Support",
     text: "Deploy the product and ensure full support by us",
     position: "md:bottom-0 md:right-0",
+    width: 40,
+    height: 40,
   },
 ];
 
@@ -180,35 +190,35 @@ export const clientData: {
 }[] = [
   {
     background: "bg-white",
-    icon: "/images/clients/kemenkes.png",
+    icon: "/images/clients/PLN.png",
     width: 200,
     height: 70,
     padding: "px-2 py-2",
   },
   {
     background: "bg-white",
-    icon: "/images/clients/asean.png",
+    icon: "/images/clients/Kemenkes.png",
     width: 200,
     height: 70,
     padding: "px-2 py-2",
   },
   {
     background: "bg-white",
-    icon: "/images/clients/mnc.png",
+    icon: "/images/clients/MNC.png",
     width: 200,
     height: 70,
     padding: "px-2 py-2",
   },
   {
     background: "bg-white",
-    icon: "/images/clients/pln.png",
+    icon: "/images/clients/Wardah.png",
     width: 200,
     height: 70,
     padding: "px-2 py-2",
   },
   {
     background: "bg-white",
-    icon: "/images/clients/wardah.png",
+    icon: "/images/clients/ACE.png",
     width: 200,
     height: 70,
     padding: "px-2 py-2",

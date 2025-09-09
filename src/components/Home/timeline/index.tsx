@@ -15,7 +15,7 @@ const TimeLine = () => {
     transition: { duration: 0.6, delay: 0.4 },
   };
   return (
-    <section className="md:pt-40 pt-9" id="development">
+    <section className="md:pt-28 pt-9" id="development">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md lg:px-16 px-4">
         <div className="text-center">
           <motion.div
@@ -57,8 +57,8 @@ const TimeLine = () => {
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-planning.svg`}
                     alt="Planning"
-                    width={44}
-                    height={44}
+                    width={40}
+                    height={40}
                     className="w-16 h-16 "
                   />
                 </div>
@@ -67,9 +67,9 @@ const TimeLine = () => {
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-6 h-fit rounded-full">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-code.svg`}
-                    alt="Refinement"
-                    width={44}
-                    height={44}
+                    alt="Development"
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <div className="text-left">
@@ -90,8 +90,8 @@ const TimeLine = () => {
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-prototype.svg`}
                     alt="Prototype"
-                    width={44}
-                    height={44}
+                    width={40}
+                    height={40}
                     className="w-16 h-16 "
                   />
                 </div>
@@ -123,8 +123,8 @@ const TimeLine = () => {
                     <Image
                       src= {`${getImagePrefix()}${item.icon}`}
                       alt={item.title}
-                      width={44}
-                      height={44}
+                      width={item.width}
+                      height={item.height}
                     />
                   </div>
                   <div className="text-start">

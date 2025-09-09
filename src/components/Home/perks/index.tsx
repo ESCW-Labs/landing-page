@@ -5,12 +5,13 @@ import CardSlider from "./slider";
 
 const Perks = () => {
   return (
-    <section className="pb-28 relative" id="clients">
+    <section className="pt-28 relative" id="clients">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <div className="text-center">
-          <p className="text-muted sm:text-28 text-18 mb-4 pb-6 relative after:content-[''] after:w-8 after:h-0.5 after:bg-primary after:absolute after:bottom-0 after:left-1/2">
+          <p className="text-muted sm:text-28 text-30 mb-4 pb-6 relative after:content-[''] after:w-8 after:h-0.5 after:bg-primary after:absolute after:bottom-0 after:left-1/2">
             Our <span className="text-primary">Clients</span>
           </p>
+
           <h2 className="text-white sm:text-40 text-30 font-medium">
             Past collaborations that inspire the solutions we build today
           </h2>

@@ -11,8 +11,8 @@ const CardSlider = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    autoplaySpeed: 1500,
-    speed: 300,
+    autoplaySpeed: 500,
+    speed: 2000,
     slidesToShow: 4,
     slidesToScroll: 1,
     cssEase: "ease-in-out",
@@ -41,7 +41,7 @@ const CardSlider = () => {
     <div className="mt-16">
       <Slider {...settings}>
         {pricedeta.map((item, index) => (
-          <div key={index} className="pr-6">
+          <div key={index} className="lg:pr-6 lg:pl-0 px-1 w-full">
             <div className="px-5 py-6 bg-dark_grey bg-opacity-80 rounded-xl">
               <div className="flex items-center gap-5">
                 <div

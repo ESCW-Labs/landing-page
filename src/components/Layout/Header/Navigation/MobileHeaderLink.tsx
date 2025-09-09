@@ -2,18 +2,29 @@ import { useState } from "react";
 import Link from "next/link";
 import { HeaderItem } from "../../../../types/menu";
 
-const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
+interface MobileHeaderLinkProps {
+  item: HeaderItem;
+  onNavigate?: () => void; // untuk menutup hamburger
+}
+
+const MobileHeaderLink: React.FC<MobileHeaderLinkProps> = ({ item, onNavigate }) => {
   const [submenuOpen, setSubmenuOpen] = useState(false);
 
-  const handleToggle = () => {
-    setSubmenuOpen(!submenuOpen);
+  const handleToggle = (e: React.MouseEvent) => {
+    // Kalau ada submenu, jangan langsung navigasi
+    if (item.submenu) {
+      e.preventDefault();
+      setSubmenuOpen(!submenuOpen);
+    } else if (onNavigate) {
+      onNavigate(); // close menu utama
+    }
   };
 
   return (
     <div className="relative w-full">
       <Link
         href={item.href}
-        onClick={item.submenu ? handleToggle : undefined}
+        onClick={handleToggle}
         className="flex items-center justify-between w-full py-2 text-muted focus:outline-none"
       >
         {item.label}
@@ -35,12 +46,14 @@ const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
           </svg>
         )}
       </Link>
+
       {submenuOpen && item.submenu && (
         <div className="bg-white p-2 w-full">
           {item.submenu.map((subItem, index) => (
             <Link
               key={index}
               href={subItem.href}
+              onClick={onNavigate} // submenu klik juga close hamburger
               className="block py-2 text-gray-500 hover:bg-gray-200"
             >
               {subItem.label}
