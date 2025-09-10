@@ -96,7 +96,7 @@ const Footer: FC = () => {
               {/* Contact Links */}
               <div className="space-y-4 mb-6">
                 <Link 
-                  href="https://wa.me/6281770777164?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
+                  href="tel:+6281770777164"
                   className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors duration-300 group"
                   target="_blank"
                 >
@@ -111,12 +111,12 @@ const Footer: FC = () => {
                   </span>
                 </Link>
                 <Link 
-                  href="https://wa.me/6281770777165?text=Halo%20ESCW%20Labs,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pengembangan%20software%20untuk%20bisnis%20saya.%20Bisakah%20kita%20diskusi%20lebih%20lanjut%3F"
+                  href="https://wa.me/6281770777165?text=Halo%20ESCW%20Labs,%0A%0ASaya%20ingin%20menghubungi%20tim%20untuk%20informasi%20lebih%20lanjut%20mengenai%20layanan%20Anda.%0A%0ATerima%20kasih%20banyak!"
                   className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors duration-300 group"
                   target="_blank"
                 >
                   <Icon
-                    icon="tabler:phone"
+                    icon="tabler:brand-whatsapp"
                     width="20"
                     height="20"
                     className="text-primary flex-shrink-0"

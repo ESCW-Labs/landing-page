@@ -49,7 +49,7 @@ const Hero = () => {
             </h1>
             <div className="flex items-center md:justify-start justify-center gap-2 md:gap-8 flex-nowrap">
               <Link
-                href="https://wa.me/6281770777164?text=Halo%20ESCW%20Labs,%20saya%20siap%20untuk%20memulai%20proyek%20pengembangan%20software.%20Saya%20ingin%20mendiskusikan%20kebutuhan%20dan%20timeline%20proyek%20saya."
+                href="https://wa.me/6281770777165?text=Halo%20ESCW%20Labs,%0A%0ASaya%20berminat%20memulai%20proyek%20pengembangan%20software.%20Berikut%20detail%20saya:%0A%0A-%20Nama:%0A-%20Perusahaan/Pribadi:%0A-%20Jenis%20Proyek:%0A%0ATerima%20kasih%20banyak!"
                 className="bg-primary border border-primary rounded-lg md:text-lg font-medium hover:bg-transparent hover:text-primary text-darkmode text-center py-2 px-3 md:px-6 whitespace-nowrap"
                 target="_blank"
               >
